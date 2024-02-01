@@ -17,11 +17,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Checkout code
-      uses: actions/checkout@v2
-
     - name: Install Chrome and ChromeDriver
-      uses: nanasess/setup-chrome@v1
+      uses: actions/setup-chrome@v2
 
     - name: Copy ChromeDriver to PATH
       run: |
