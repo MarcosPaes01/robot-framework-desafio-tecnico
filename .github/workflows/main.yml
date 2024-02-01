@@ -24,8 +24,8 @@ jobs:
 
     - name: Copy ChromeDriver to PATH
       run: |
-        sudo cp /util/chromedriver /usr/local/bin/chromedriver
-        sudo chmod +x /usr/local/bin/chromedriver
+        sudo cp /util/chromedriver /usr/util/chromedriver
+        sudo chmod +x /usr/util/chromedriver
         
     - name: Install Python
       uses: actions/setup-python@v2
