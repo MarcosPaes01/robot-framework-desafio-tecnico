@@ -16,7 +16,7 @@ Dependências
         - Disponível em https://googlechromelabs.github.io/chrome-for-testing/
 
     - Selenium Library (versão 6.2.0)
-        - pip install robotframework-seleniumlibrary==6.2.0
+        - pip install robotframework-seleniumlibrary==6.0.0
 
 Ferramentas 
     -Visual Studio Code
