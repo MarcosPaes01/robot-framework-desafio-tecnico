@@ -17,6 +17,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Chrome and ChromeDriver
+      uses: nanasess/setup-chrome@v1
+
+    - name: Copy ChromeDriver to PATH
+      run: |
+        sudo cp /util/chromedriver /usr/local/bin/chromedriver
+        sudo chmod +x /usr/local/bin/chromedriver
+        
     - name: Install Python
       uses: actions/setup-python@v2
       with:
